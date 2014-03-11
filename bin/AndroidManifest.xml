@@ -34,8 +34,7 @@
         <activity
             android:name="com.ahailu.ribbit.SignUpActivity"
             android:label="@string/title_activity_sign_up"
-            android:parentActivityName="com.ahailu.ribbit.LoginActivity"
-            android:screenOrientation="portrait" >
+            android:screenOrientation="portrait" android:parentActivityName="com.ahailu.ribbit.LoginActivity">
         </activity>
     </application>
 
