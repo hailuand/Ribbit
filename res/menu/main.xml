@@ -2,8 +2,13 @@
 
     <item
         android:id="@+id/action_logout"
-        android:showAsAction="ifRoom|withText"
+        android:showAsAction="always"
         android:title="@string/menu_logout_label">
+    </item>
+    <item
+        android:id="@+id/action_edit_friends"
+        android:showAsAction="always"
+        android:title="@string/menu_edit_friends_label">
     </item>
 
 </menu>
